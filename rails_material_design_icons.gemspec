@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['sampo.kuokkanen@gmail.com']
   gem.description   = 'Rails Material Design Icons provides the web fonts and stylesheets as a Rails engine for use with the asset pipeline.'
   gem.summary       = 'an asset gemification of the Material Icons font library'
-  gem.homepage      = 'https://github.com/sampokuokkanen/rails-material-design-icons'
+  gem.homepage      = 'https://github.com/sampokuokkanen/rails_material_design_icons'
   gem.licenses      = ['MIT', 'SIL Open Font License']
 
   gem.files         = `git ls-files -- {app,bin,lib,test,spec}/* {LICENSE*,Rakefile,README*}`.split("\n")
