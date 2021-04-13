@@ -5,3 +5,6 @@
 
 # Version 0.2 
 -Second version, helpers were not working, so fixed that. Also the name Material Design Icons Rails was already in use on RubyGems, so Rails Material Design Icons it is. 
+
+# Versin 0.3
+-Fix Github address and order of version numbers for gem bump command. 
