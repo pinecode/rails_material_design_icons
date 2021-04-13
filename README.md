@@ -1,10 +1,10 @@
-# material_design_icons_rails
+# rails_material_design_icons
 
-[![Gem Version](http://img.shields.io/gem/v/material_design_icons_rails.svg)](https://rubygems.org/gems/material_design_icons_rails)
-[![Build Status](https://github.com/sampokuokkanen/material_design_icons_rails/workflows/CI/badge.svg)](https://github.com/sampokuokkanen/material_design_icons_rails/actions?query=workflow%3ACI)
-[![Gem Downloads](https://img.shields.io/gem/dt/material_design_icons_rails.svg)](https://rubygems.org/gems/material_design_icons_rails)
+[![Gem Version](http://img.shields.io/gem/v/rails_material_design_icons.svg)](https://rubygems.org/gems/rails_material_design_icons)
+[![Build Status](https://github.com/sampokuokkanen/rails_material_design_icons/workflows/CI/badge.svg)](https://github.com/sampokuokkanen/rails_material_design_icons/actions?query=workflow%3ACI)
+[![Gem Downloads](https://img.shields.io/gem/dt/rails_material_design_icons.svg)](https://rubygems.org/gems/rails_material_design_icons)
 
-material_design_icons_rails provides the
+rails_material_design_icons provides the
 [Material Design Icons](https://materialdesignicons.com/) web fonts and
 stylesheets as a Rails engine for use with the asset pipeline.
 
@@ -16,7 +16,7 @@ Most of the work was done in Font Awesome gem, this just changes the files to Ma
 Add this to your Gemfile:
 
 ```ruby
-gem "material_design_icons_rails"
+gem "rails_material_design_icons"
 ```
 
 and run `bundle install`.
@@ -27,7 +27,7 @@ In your `application.css`, include the css file:
 
 ```css
 /*
- *= require font-awesome
+ *= require materialdesignicons
  */
 ```
 Then restart your webserver if it was previously running.
@@ -101,5 +101,5 @@ In addition you need to indicate the subfolder when you *precompile* the assets:
 * [Material Design](http://fortawesome.github.com/Font-Awesome) CSS files are
   licensed under the
   [MIT License](http://opensource.org/licenses/mit-license.html).
-* The remainder of the material_design_icons_rails project is licensed under the
+* The remainder of the rails_material_design_icons project is licensed under the
   [MIT License](http://opensource.org/licenses/mit-license.html).

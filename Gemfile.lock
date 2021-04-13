@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    material_design_icons_rails (0.1)
+    rails_material_design_icons (0.2)
       railties (>= 3.2, < 7)
 
 GEM
@@ -116,7 +116,7 @@ DEPENDENCIES
   byebug
   guard (>= 2.9)
   guard-minitest
-  material_design_icons_rails!
+  rails_material_design_icons!
   sassc-rails
 
 BUNDLED WITH
