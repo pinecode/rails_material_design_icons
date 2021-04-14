@@ -11,3 +11,6 @@
 
 # Version 0.4.0
 -Fix license on Rubygems
+
+# Version 0.5.0
+-Fix CSS not being found. 
