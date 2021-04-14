@@ -14,3 +14,5 @@
 
 # Version 0.5.0
 -Fix CSS not being found. 
+
+# Note that versions before 0.5.0 don't actually contain the fonts unless you use this gem from git. 
