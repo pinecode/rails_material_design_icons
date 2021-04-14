@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/sampokuokkanen/rails_material_design_icons'
   gem.licenses      = ['MIT', 'Apache 2.0']
 
-  gem.files         = `git ls-files -- {app,bin,lib,test,spec}/* {LICENSE*,Rakefile,README*}`.split("\n")
+  gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec}/*`.split("\n")
   gem.name          = 'rails_material_design_icons'
 
