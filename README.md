@@ -60,6 +60,7 @@ views _icontastic!_
 ```ruby
 md_icon "sheep"
 # => <i class="mdi md-sheep"></i>
+```
 
 ### Deploying to sub-folders
 
