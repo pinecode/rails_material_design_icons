@@ -23,3 +23,4 @@
 ## [0.7.0] - 2021-06-08
 
 - Was including some unnecessary files in the gem package. So the size of this gem should be a bit smaller now. 
+Also updated required Ruby version to 2.5 to be a bit more realistic. 
