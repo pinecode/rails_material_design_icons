@@ -18,4 +18,8 @@
 # Version 0.6.0
 -Actually fix CSS not being found. 
 
-# Note that versions before 0.6.0 don't actually contain the fonts unless you use this gem from git. 
+## Note that versions before 0.6.0 don't actually contain the fonts unless you use this gem from git. 
+
+## [0.7.0] - 2021-06-08
+
+- Was including some unnecessary files in the gem package. So the size of this gem should be a bit smaller now. 
