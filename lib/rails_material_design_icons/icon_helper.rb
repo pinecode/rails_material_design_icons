@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Icon helpers for MaterialDesignIcons
 module MaterialDesignIcons
   module IconHelper
     # Creates an icon tag given an icon name and possible icon

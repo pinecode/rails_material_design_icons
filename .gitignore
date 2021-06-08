@@ -5,7 +5,8 @@ gemfiles/*.lock
 pkg/*
 bin
 vendor/ruby
-gemfiles/vendor/ruby
+../gems/ActiveTranslateSelf/gemfiles/vendor/ruby
 .rbenv-version
 .sass-cache
 .byebug_history
+/.idea
