@@ -58,7 +58,7 @@ There are also some helpers (`fa_icon` and `fa_stacked_icon`) that make your
 views _icontastic!_
 
 ```ruby
-md_icon "sheep"
+mdi_icon "sheep"
 # => <i class="mdi md-sheep"></i>
 ```
 
