@@ -15,15 +15,24 @@ module MaterialDesignIcons
       assert_icon i('mdi mdi-github'),       'github'
     end
 
+    test '#md_icon_spin adds the spin class' do
+      assert_dom_equal mdi_icon_spin('sheep'), i_spin('mdi mdi-sheep')
+      assert_dom_equal mdi_spin('sheep'), i_spin('mdi mdi-sheep')
+    end
+
     private
 
     def assert_icon(expected, *args)
       message = "`mdi_icon(#{args.inspect[1...-1]})` should return `#{expected}`"
-      assert_dom_equal expected, mdi_icon(*args), message
+      assert_dom_equal expected, mdi_icon(*args)
     end
 
     def i(classes)
       %(<i class="#{classes}"></i>)
+    end
+
+    def i_spin(classes)
+      i(classes + ' mdi-spin')
     end
   end
 end

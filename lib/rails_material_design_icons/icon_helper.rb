@@ -22,6 +22,11 @@ module MaterialDesignIcons
       Private.icon_join(icon, text, right_icon)
     end
 
+    def mdi_icon_spin(names = 'sheep', original_options = {})
+      mdi_icon(names, original_options.merge(class: ['mdi-spin']))
+    end
+    alias :mdi_spin :mdi_icon_spin
+
     module Private
       extend ActionView::Helpers::OutputSafetyHelper
 
