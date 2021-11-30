@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    rails_material_design_icons (0.7.0)
-      railties (>= 3.2, < 7)
+    rails_material_design_icons (6.5.95)
+      railties (>= 3.2, < 8)
 
 GEM
   remote: https://rubygems.org/
@@ -120,4 +120,4 @@ DEPENDENCIES
   sassc-rails
 
 BUNDLED WITH
-   2.2.15
+   2.2.22

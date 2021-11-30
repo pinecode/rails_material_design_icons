@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = MaterialDesignIcons::Rails::VERSION
 
-  gem.add_dependency 'railties', '>= 3.2', '< 7'
+  gem.add_dependency 'railties', '>= 3.2', '< 8'
 
   gem.add_development_dependency 'activesupport'
   gem.add_development_dependency 'byebug'

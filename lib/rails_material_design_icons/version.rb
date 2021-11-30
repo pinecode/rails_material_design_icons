@@ -2,7 +2,6 @@
 
 module MaterialDesignIcons
   module Rails
-    VERSION = '0.7.0'
-    MATERIAL_DESIGN_ICON_VERSION = '5.4.55'
+    VERSION = '6.5.95'
   end
 end
