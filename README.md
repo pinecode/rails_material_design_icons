@@ -1,10 +1,10 @@
-# rails_material_design_icons
+# Rails Material Design Icons
 
 [![Gem Version](http://img.shields.io/gem/v/rails_material_design_icons.svg)](https://rubygems.org/gems/rails_material_design_icons)
 [![Build Status](https://github.com/sampokuokkanen/rails_material_design_icons/workflows/CI/badge.svg)](https://github.com/sampokuokkanen/rails_material_design_icons/actions?query=workflow%3ACI)
 [![Gem Downloads](https://img.shields.io/gem/dt/rails_material_design_icons.svg)](https://rubygems.org/gems/rails_material_design_icons)
 
-rails_material_design_icons provides the
+Rails Material Design Icons provides the
 [Material Design Icons](https://materialdesignicons.com/) web fonts and
 stylesheets as a Rails engine for use with the asset pipeline.
 
@@ -54,12 +54,16 @@ add this to your `application.css.sass` file:
 
 ### Helpers
 
-There are also some helpers (`fa_icon` and `fa_stacked_icon`) that make your
+There are also some helpers (`mdi` and `mdi_spin`) that make your
 views _icontastic!_
 
 ```ruby
-mdi_icon "sheep"
-# => <i class="mdi md-sheep"></i>
+mdi "sheep"
+# => <i class="mdi mdi-sheep"></i>
+
+mdi_spin # spinning icons!
+# => <i class="mdi mdi-sheep mdi-spin"></i>
+
 ```
 
 ### Deploying to sub-folders

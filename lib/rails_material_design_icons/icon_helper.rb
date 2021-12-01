@@ -11,7 +11,7 @@ module MaterialDesignIcons
     #   mdi_icon "sheep"
     #   # => <i class="mdi md-sheep"></i>
     #
-    def mdi_icon(names = 'sheep', original_options = {})
+    def mdi(names = 'sheep', original_options = {})
       options = original_options.deep_dup
       classes = ['mdi']
       classes.concat Private.icon_names(names)
@@ -21,12 +21,11 @@ module MaterialDesignIcons
       icon = content_tag(:i, nil, options.merge(class: classes))
       Private.icon_join(icon, text, right_icon)
     end
+    alias mdi_icon mdi
 
-    def mdi_icon_spin(names = 'sheep', original_options = {})
+    def mdi_spin(names = 'sheep', original_options = {})
       mdi_icon(names, original_options.merge(class: ['mdi-spin']))
     end
-    alias :mdi_spin :mdi_icon_spin
-
     module Private
       extend ActionView::Helpers::OutputSafetyHelper
 
